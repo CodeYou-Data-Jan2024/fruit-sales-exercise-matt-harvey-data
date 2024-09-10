@@ -4,6 +4,6 @@ df = pd.DataFrame({'': ['2017 Sales', '2018 Sales'], 'Apples': [35, 41], 'Banana
 
 df = df.set_index('')
 
-print(df.head())
-
 df.to_csv('fruit.csv')
+
+print(df)
